@@ -8,7 +8,7 @@ After unzipping the `zip` file, I found that the resultant folder was empty (or 
 
 ![incorrect_flag](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Git/wrongflag.png)
 
-Some knowledge in git made me suspect they were hidden directories and files (i.e. using the `.` prefix-meaning that it is hidden unless we do a `ls -la` in the command line). Using [this article](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), we can gain some inspiration of how to extract the contents of the commit. 
+There was a flag.txt file, but obviously being tied to the Git VCS, it was modified. Some knowledge in git made me suspect they were hidden directories and files (i.e. using the `.` prefix-meaning that it is hidden unless we do a `ls -la` in the command line). Using [this article](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), we can gain some inspiration of how to extract the contents of the commit. 
 
 
 ```                                                                             
