@@ -79,4 +79,4 @@ bdQG
 D_ O
 ```
 
-And sure enough, towards the end of the output, the flag was found but with a different format! The flag is `flag{wow!_data_is_cool}`.
+And sure enough, towards the end of the output, the flag was found but with a different format! 🤦 The flag is `flag{wow!_data_is_cool}`.
