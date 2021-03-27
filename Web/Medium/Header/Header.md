@@ -7,15 +7,17 @@ Here is the page when viewed in a web browser.
 
 I first fired up Burp when I saw that this was regarding headers and reloded the page. 
 
-![burp_int]()
+![burp_int](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/Header/images/webpage.png)
 
 
 The comment seemed suspicious but I had no success in submitting it as the flag, hence it wasn't that straightforward (being a medium challenge too), so I tried to forward the response to the Repeater Function. There I copied the comment into the `User-Agent` field to get:
 `User-Agent: Sup3rS3cr3tAg3nt`
 
-![incorrect]()
+![incorrect](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/Header/images/incorrect.png)
 
-![burp_rep]()
+So I needed to try harder I guess...
+
+![burp_rep](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/Header/images/stage1.png)
 
 Thereafter, the response says: 
 ```
@@ -24,4 +26,4 @@ Sorry, it seems as if you did not just come from the site, "awesomesauce.com".
 ```
 
 Hmm... so what in the header has got to do with mentioning a site? I took a hint--the `Referer` field, which was not initially present. After we set `Referer: awesomesauce.com`and press `Go`, we get a response with out flag, which is: `flag{did_this_m3ss_with_y0ur_h34d}`.
-![flag]()
+![flag](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/Header/images/flag.png)
