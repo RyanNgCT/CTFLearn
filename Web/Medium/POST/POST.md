@@ -40,7 +40,7 @@ $ curl -d "username=YWRtaW4=&password=NzF1cmxrdWZwc2RubGthZHNm" -X POST http://1
 ```
 
 Wow... a different error message, we are getting super close! If we take a look carefully in the `GET` request in Burp, the Encoding field reads: `Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8`. Alamak!  🤦 I've done it again by not reading 😅😅
-It accepts `text/html`, meaning **plaintext**!
+It accepts `text/html`, meaning **plaintext** can be accepted too!
 
 ![burp_req](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/POST/dependencies/Burp_req.png)
 
