@@ -5,14 +5,15 @@ This website requires authentication, via POST. However, it seems as if someone 
 ### Approach
 
 This challenge was interesting. We are first presented with this page:
-![page]()
+
+![page](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/POST/dependencies/post.png)
 
 Seems like something to do with `POST` requests, which I studied in my Web Application Pentesting Module last semester (at the time of writing).
 
 I first fired up Burp Suite Community, turned on `Intercept Traffic` and reloaded the page. The proxy registered a suspicious `GET` response, containing the username and password of the user.
 I found [this article](https://www.educative.io/edpresso/how-to-perform-a-post-request-using-curl), which seemed to be helpful.
 
-![burp_resp]()
+![burp_resp](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/POST/dependencies/Burp_resp.png)
 
 I then proceeded on to craft the payload. The examplar payload given was:
 ```
@@ -40,7 +41,8 @@ $ curl -d "username=YWRtaW4=&password=NzF1cmxrdWZwc2RubGthZHNm" -X POST http://1
 
 Wow... a different error message, we are getting super close! If we take a look carefully in the `GET` request in Burp, the Encoding field reads: `Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8`. Alamak!  🤦 I've done it again by not reading 😅😅
 It accepts `text/html`, meaning **plaintext**!
-![burp_req]()
+
+![burp_req](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/POST/dependencies/Burp_req.png)
 
 So the final payload will be:
 ```
@@ -49,5 +51,5 @@ curl -d "username=admin&password=71urlkufpsdnlkadsf" -X POST http://165.227.106.
 ```
 
 And we get the flag `flag{p0st_d4t4_4ll_d4y}`.
-```
+
 
