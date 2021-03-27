@@ -3,6 +3,7 @@
 For this challenge, it involved a few steps but was rather straightforward.
 
 Firstly, I scanned the QR Code with my phone. This outputted what looked like a string of `Base64` encoded string: `c3ludCB2ZiA6IGEwX29icWxfczBldHJnX2RlX3BicXI=`.
+
 ![QR](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/QRCode/dependencies/qrcode.39907201.png)
 
 
