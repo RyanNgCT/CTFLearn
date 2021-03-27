@@ -26,7 +26,7 @@ $ curl -d "user=admin&pass=71urlkufpsdnlkadsf" -X POST http://165.227.106.113/po
 <h1>This site takes POST data that you have not submitted!</h1><!-- username: admin | password: 71urlkufpsdnlkadsf --> 
 ```
 
-However, this failed to work out as shown in the output, which was exactly the same as the one we started out with. I thought this had something to do with `Base64` encoding since I experienced something similar in another CTF where we hasd to encode `No` in the Authorization header as `Tm8=`.
+However, this failed to work out as shown in the output, which was exactly the same as the one we started out with. I thought this had something to do with `Base64` encoding since I experienced something similar in another CTF where we had to encode `No` in the Authorization field of the header as `Tm8=`.
 I crafted another payload:
 ```
 $ curl -d "user=YWRtaW4=&pass=NzF1cmxrdWZwc2RubGthZHNm" -X POST http://165.227.106.113/post.php
