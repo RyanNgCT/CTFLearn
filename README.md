@@ -1,7 +1,7 @@
 # CTFLearn
 Writeups for CTFLearn Challenges
 
-Disclaimer: Writeups are included only included if I feel that they bring great value or I learnt something new not in previous CTFs.
+Disclaimer: Writeups are included only included if I feel that they bring great value or I learnt something new that are not in previous CTFs.
 
 ## Writeups
 
