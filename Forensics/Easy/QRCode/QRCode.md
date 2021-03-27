@@ -1,5 +1,9 @@
 ## QR Code
 
+Do you remember something known as QR Code? Simple. Here for you: [Link](https://mega.nz/#!eGYlFa5Z!8mbiqg3kosk93qJCP-DBxIilHH2rf7iIVY-kpwyrx-0)
+
+### Approach
+
 For this challenge, it involved a few steps but was rather straightforward.
 
 Firstly, I scanned the QR Code with my phone. This outputted what looked like a string of `Base64` encoded string: `c3ludCB2ZiA6IGEwX29icWxfczBldHJnX2RlX3BicXI=`.
