@@ -6,10 +6,10 @@ Disclaimer: Writeups are included only included if I feel that they bring great 
 ## Writeups
 
 Forensics
-- [x] Easy: Forensics 101
+- [x] Easy: [Forensics 101](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Forensic-101.md)
 
 Miscellaneous 
-- [x] Easy: QR Code
+- [x] Easy: [QR Code](https://github.com/RyanNgCT/CTFLearn/blob/main/Misc/Easy/QRCode/QRCode.md)
 
 Web
-- [x] Medium: POST Practice
+- [x] Medium: [POST Practice](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/POST/POST.md)
