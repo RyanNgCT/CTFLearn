@@ -42,4 +42,4 @@ index c5250d0..8684e68 100644
 +flag{protect_your_git}
 ```
 
-This the flag is `flag{protect_your_git}`.
+Thus the flag is `flag{protect_your_git}`.
