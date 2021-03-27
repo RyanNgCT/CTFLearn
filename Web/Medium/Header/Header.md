@@ -26,4 +26,5 @@ Sorry, it seems as if you did not just come from the site, "awesomesauce.com".
 ```
 
 Hmm... so what in the header has got to do with mentioning a site? I took a hint--the `Referer` field, which was not initially present. After we set `Referer: awesomesauce.com`and press `Go`, we get a response with out flag, which is: `flag{did_this_m3ss_with_y0ur_h34d}`.
+
 ![flag](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/Header/images/flag.png)
