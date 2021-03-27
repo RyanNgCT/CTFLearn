@@ -7,6 +7,7 @@ Disclaimer: Writeups are included only included if I feel that they bring great 
 
 Forensics
 - [x] Easy: [Forensics 101](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Forensic-101.md)
+- [x] Easy: [Git is Good](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Git/git.md)
 
 Miscellaneous 
 - [x] Easy: [QR Code](https://github.com/RyanNgCT/CTFLearn/blob/main/Misc/Easy/QRCode/QRCode.md)
