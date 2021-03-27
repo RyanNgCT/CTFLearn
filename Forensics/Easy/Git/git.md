@@ -6,7 +6,7 @@ The flag used to be there. But then I redacted it. Good Luck. https://mega.nz/#!
 
 After unzipping the `zip` file, I found that the resultant folder was empty (or was it 👀)... 
 
-![incorrect_flag](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Git/images/incorrect.png)
+![incorrect_flag](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Git/wrongflag.png)
 
 Some knowledge in git made me suspect they were hidden directories and files (i.e. using the `.` prefix-meaning that it is hidden unless we do a `ls -la` in the command line). Using [this article](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History), we can gain some inspiration of how to extract the contents of the commit. 
 
