@@ -2,13 +2,12 @@
 
 Find the flag in the jpeg file. Good Luck!
 
-![img]()
+![img](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Snowboard/images/Snowboard.jpg)
 
 ### Approach
 We are given the image above. No clue what to do with it. Open it in a hex editor? Why not? 
-![hex_out]()
 
-
+![hex_out](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Snowboard/images/hex.png)
 
 Is `CTFlearn{CTFIsEasy!!!}` the flag? Yeah right? Wrong! Hmm I got a hint that it had something to do with `Base64`... Flag was encoded in `Base64`? Why not that's a pretty smart move by the author!
 
