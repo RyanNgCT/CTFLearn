@@ -33,8 +33,9 @@ Wow ok TIL. And when I tried it out, sure enough, `-n` removed the suffix of `Cg
 ```
 $ echo -n 'CTF' | base64                                                      
 Q1RG
-
 ```
+
+This was a good challenge, I learnt 2 new things--how to use `echo -n` to supress the newline (which I didn't know existed) and that reverse searches are possible (you never know when CTF authors want you to think outside the box 📦)!
 
 ### Resources
 * https://www.base64decode.org/ https://www.base64encode.org/
