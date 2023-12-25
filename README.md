@@ -6,14 +6,15 @@ Disclaimer: Writeups are included only included if I feel that they bring great 
 ## Writeups
 
 Forensics
-- [x] Easy: [Forensics 101](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Forensic-101.md)
-- [x] Easy: [Git is Good](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Git/git.md)
-- [x] Easy: [Snowboard](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Easy/Snowboard/Snowboard.md)
-- [x] Medium: [07601](https://github.com/RyanNgCT/CTFLearn/blob/main/Forensics/Medium/07601/07601.md)
+- [x] Easy: [Forensics 101](./Forensics/Easy/Forensic-101.md)
+- [x] Easy: [Git is Good](./Forensics/Easy/Git/git.md)
+- [x] Easy: [Snowboard](/Forensics/Easy/Snowboard/Snowboard.md)
+- [x] Medium: [07601](./Forensics/Medium/07601/07601.md)
 
 Miscellaneous 
-- [x] Easy: [QR Code](https://github.com/RyanNgCT/CTFLearn/blob/main/Misc/Easy/QRCode/QRCode.md)
+- [x] Easy: [QR Code](./Misc/Easy/QRCode/QRCode.md)
+- [x] Medium: [Rock Paper Scissors](./Misc/Medium/Rock_Paper_Scissors/RPS.md)
 
 Web
-- [x] Medium: [POST Practice](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/POST/POST.md)
-- [x] Medium: [Don't Bump Your Head(er)](https://github.com/RyanNgCT/CTFLearn/blob/main/Web/Medium/Header/Header.md)
+- [x] Medium: [POST Practice](./Web/Medium/POST/POST.md)
+- [x] Medium: [Don't Bump Your Head(er)](./Web/Medium/Header/Header.md)

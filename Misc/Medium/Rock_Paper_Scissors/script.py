@@ -8,7 +8,7 @@ PORT = 5001
 # default options for the game
 options = ["R", "P", "S"]
 answerList = []
-counter = 11
+counter = 11 # skip the header reply
 curr_answer = None
 
 try:
